@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rhymes">
+        <item>Alphabets</item>
+        <item>London Bridge Is Falling Down</item>
+        <item>Baa Baa Black Ship</item>
+        <item>Twinkle Twinkle Little Star</item>
+        <item>Clap Your Hands</item>
+    </string-array>
+    <string-array name="Colours_List">
+        <item>Black</item>
+        <item>Grey</item>
+        <item>Purple</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Pink</item>
+        <item>Brown</item>
+    </string-array>
+</resources>

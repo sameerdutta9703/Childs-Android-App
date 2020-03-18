@@ -1,0 +1,4 @@
+#Fri Jul 06 17:09:34 IST 2018
+base.0=C\:\\AndroidSdk\\AndroidProjects\\BUDS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+path.0=classes.dex
+renamed.0=classes.dex

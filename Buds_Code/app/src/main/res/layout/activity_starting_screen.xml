@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/kidsbg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/textcolor"
+        android:fontFamily="@font/finger_paint"
+        android:text="BUDS"
+        android:textAlignment="center"
+        android:textColor="#FFFDFDFD"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="LEARN"
+        android:textAlignment="viewStart"
+        android:textColor="#FF3AF43A"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        android:text="QUIZ"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFF8F549"
+        android:textSize="34sp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/games"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        android:text="GAMES"
+        android:textColor="#FF3AF43A"
+        android:textSize="34sp"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/rhymes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        android:text="RHYMES"
+        android:textAlignment="textEnd"
+        android:textColor="#FFF8F549"
+        android:textSize="34sp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

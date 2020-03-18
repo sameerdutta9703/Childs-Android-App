@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Home_Menu_Options">
+        <item>English Alphabets</item>
+        <item>Hindi Alphabets</item>
+        <item>Animals</item>
+        <item>Numbers</item>
+        <item>Shapes</item>
+        <item>Colors</item>
+    </string-array>
+</resources>

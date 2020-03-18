@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.buffalo.buds.buds">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="BUDS"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".StartingScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OpeningScreen"
+            android:label="Learning"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Customlist_rhymes"
+            android:label="Rhymes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Numbers"
+            android:label="Number"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Shapes"
+            android:label="Shape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SnakeActivity"
+            android:label="Snake"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EnglishAlphabets"
+            android:label="English Alphabets"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HindiAlphabets"
+            android:label="Hindi Alphabets"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Colours"
+            android:label="Colours"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Animal"
+            android:label="Animals"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SnakeMain"
+            android:label="Snake"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QMainActivity"
+            android:label="Quiz"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QuizActivity"
+            android:label="Quiz"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
